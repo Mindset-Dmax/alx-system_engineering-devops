@@ -3,4 +3,4 @@
 	# PASSPHRASE = "betty"
 	# RSA KEY  = "school"
 
-ssh-keygen -t rsa -b 4096 -f school -N betty
+ssh-keygen -t rsa -b 4096 -f school -N "betty"
