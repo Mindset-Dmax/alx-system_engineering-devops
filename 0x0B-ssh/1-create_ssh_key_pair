@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #Generating a RSA key pair
 	# PASSPHRASE = "betty"
 	# RSA KEY  = "school"
