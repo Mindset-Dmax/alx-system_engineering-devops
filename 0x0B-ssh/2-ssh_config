@@ -2,7 +2,7 @@
 
 #Configuring clients key
 
-host 52.91.126.106
+host 35.174.205.110
 	port 22
 	username ubuntu
 	UserKnownHostsFile ~/.ssh/school
