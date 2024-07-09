@@ -31,5 +31,4 @@ if [[ -z $FIND ]]; then
     sed -i "40i $ERROR" /etc/nginx/sites-available/default
 fi
 
-service nginx restart
-
+service nginx resta
