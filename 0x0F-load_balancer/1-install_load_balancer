@@ -3,7 +3,7 @@
 
 # Install HAproxy on a server
 apt-get -y update
-apt-get -y install haproxy=1.6.\*
+apt-get -y install haproxy=2.8.\*
 
 # Configure haproxy configuration file to distribute requests using a roundrobin algorithm
 echo '
@@ -13,8 +13,8 @@ frontend felixfrz.tech
 
 backend web_servers
         balance roundrobin
-        server 452723-web-01 52.91.126.106:80
-        server 452723-web-02 54.157.174.148:80
+        server 452723-web-01 54.157.167.103:80
+        server 452723-web-02 52.91.116.35:80
 ' >> /etc/haproxy/haproxy.cfg
 
 # Restart HAproxy service
