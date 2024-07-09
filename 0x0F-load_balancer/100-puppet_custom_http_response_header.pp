@@ -1,7 +1,7 @@
 # Custom HTTP header in a nginx server
 
 # update ubuntu server
-exec { 'update server':
+xec { 'update server':
   command  => 'apt-get update',
   user     => 'root',
   provider => 'shell',
